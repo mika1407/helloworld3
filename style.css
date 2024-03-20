@@ -1,0 +1,137 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: darkblue;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+/* Navigation styles */
+nav {
+    background-color: lightgrey;
+    padding: 12px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+
+/* Main content styles */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+section, article {
+    flex-basis: 70%;
+    margin-right: 20px;
+    background-color: lightblue;
+    padding-left: 5px;
+}
+
+aside {
+    flex-basis: 30%;
+    float: right;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: darkslategray;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+footer a {
+  color: beige;
+  text-decoration: none;
+}
+
+footer address {
+  padding-top: 12px;
+}
+
+/* Portfolio styles*/
+
+.profile-image {
+  border: dotted 2px;
+  width: 200px;
+  height: 200px;
+}
+
+.ekadiv {
+  background-color: #DBF9FC;
+}
+
+.kuva1 {
+  padding: 10px;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  padding: 5px;
+  max-width: 250px;
+  margin: 5px;
+}
+
+img {
+  width: 230px;
+  height: 170px;
+  margin: 10px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+
+.ekadiv p {
+  padding: 5px;
+}
+
+.ekadiv  {
+margin-bottom: 20px;
+}
+
+label {
+  padding: 5px;
+}
+
+.port {
+  background-color: darkblue;
+  color:#fff;
+  border: black 1px solid;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.portbody {
+  background-color: ivory;
+  color: gray;
+  margin: 15px;
+}
